@@ -1,6 +1,6 @@
 <?php 
 
-namespace Cal;
+namespace teampat;
 
 class Calculator {
 

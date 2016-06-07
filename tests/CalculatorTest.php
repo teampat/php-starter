@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-use Cal\Calculator;
+use teampat\Calculator;
 
 class CalculatorTest extends PHPUnit_Framework_TestCase {
 
@@ -11,7 +11,7 @@ class CalculatorTest extends PHPUnit_Framework_TestCase {
 	}
 
 	public function testAddNumber(){
-		$this->assertEquals(4,$this->calc->add(2,2)); 
+		$this->assertEquals(4,$this->calc->add(2,2));
 	}
 
 	public function testDiffNumber(){
